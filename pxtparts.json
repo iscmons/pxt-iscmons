@@ -1,0 +1,33 @@
+{
+    "iscmons": {
+        "visual": {
+            "image": "iscmons.jpg",
+            "width": 58,
+            "height": 64,
+            "pinDistance": 7.2,
+            "pinLocations": [
+                {"x": 13, "y": 5},
+                {"x": 21, "y": 5},
+                {"x": 29, "y": 5},
+                {"x": 37, "y": 5}
+            ]
+        },
+        "numberOfPins": 4,
+        "instantiation": {
+            "kind": "function",
+            "fullyQualifiedName": "bme280.pressure,bme280.temperature,bme280.humidity,bme280.setPower,bme280.setAddress",
+            "argumentRoles": [{
+                    "pinInstantiationIdx": 0
+                }]
+        },
+        "pinDefinitions": [
+            {"target": "SDA", "style": "male", "orientation": "+Y" },
+            {"target": "SCL", "style": "male", "orientation": "+Y" },
+            {"target": "ground", "style": "male", "orientation": "+Y" },
+            {"target": "threeVolt", "style": "male", "orientation": "+Y" }
+        ],
+        "assembly": [
+            {"pinIndices": [0, 1, 2, 3]}
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "iscmons",
+    "version": "0.1.1",
+    "description": "makecode BME280 Digital Pressure and Humidity Sensor Package for Maker Make Code",
+    "files": [
+        "README.md",
+        "pxtparts.json",
+        "iscmons.ts",
+        "iscmons.jpg"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "*"
+    },
+    "installedVersion": "workspace:0c4ceb6c-59de-4f3c-9670-ae6a87ff8600"
+}

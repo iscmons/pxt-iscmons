@@ -6,7 +6,7 @@
  */
 
 //% color="#AA278D" weight=100
-namespace hello {
+namespace iscmons {
     //% block
     export function helloWorld() {
 
